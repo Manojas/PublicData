@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>VirtualClassRoom</display-name>
+  <servlet>
+    <servlet-name>StudentLogin1</servlet-name>
+    <servlet-class>Com.Mindtree.Classroom.StudentLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentLogin1</servlet-name>
+    <url-pattern>/StudentLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>StaffLogin1</servlet-name>
+   <servlet-class>Com.Mindtree.Classroom.StaffLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StaffLogin1</servlet-name>
+    <url-pattern>/StaffLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>StudentLogin2</servlet-name>
+   <servlet-class>Com.Mindtree.Classroom.StudentOk</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentLogin2</servlet-name>
+    <url-pattern>/StudentOk</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  <servlet-name>AdminLogin1</servlet-name>
+   <servlet-class>Com.Mindtree.Classroom.AdminLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLogin1</servlet-name>
+    <url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+    <servlet>
+  <servlet-name>view student</servlet-name>
+   <servlet-class>Com.Mindtree.Classroom.ViewStudent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>view student</servlet-name>
+    <url-pattern>/ViewStudent</url-pattern>
+  </servlet-mapping>
+     <servlet>
+  <servlet-name>Delete student</servlet-name>
+   <servlet-class>Com.Mindtree.Classroom.DeleteStudent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delete student</servlet-name>
+    <url-pattern>/DeleteStudent</url-pattern>
+  </servlet-mapping>
+     <servlet>
+  <servlet-name>Add student</servlet-name>
+   <servlet-class>Com.Mindtree.Classroom.AddStudent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add student</servlet-name>
+    <url-pattern>/AddStudent</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Add staff</servlet-name>
+   <servlet-class>Com.Mindtree.Classroom.AddStaff</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add staff</servlet-name>
+    <url-pattern>/AddStaff</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  <servlet-name>view staff</servlet-name>
+   <servlet-class>Com.Mindtree.Classroom.ViewStaff</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>view staff</servlet-name>
+    <url-pattern>/ViewStaff</url-pattern>
+  </servlet-mapping>
+     <servlet>
+  <servlet-name>DeleteStaff</servlet-name>
+   <servlet-class>Com.Mindtree.Classroom.DeleteStaff</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>view student</servlet-name>
+    <url-pattern>/DeleteStaff</url-pattern>
+  </servlet-mapping>
+       <servlet>
+  <servlet-name>UploadServlet</servlet-name>
+   <servlet-class>Com.Mindtree.Classroom.UploadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Upload Servlet</servlet-name>
+    <url-pattern>/UploadServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    
+  </welcome-file-list>
+</web-app>
+</element>
